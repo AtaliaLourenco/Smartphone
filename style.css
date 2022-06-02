@@ -51,6 +51,16 @@ img {
   margin: 0 20px 20px 20px;
 }
 
+@media (max-width: 500px) {
+  .super-inf p,
+  .super-inf a {
+    margin: -10px 10px 10px 10px;
+  }
+  .super-inf a {
+    display: none;
+  }
+}
+
 .super-info-bg a {
   color: #000000;
 }
@@ -67,6 +77,11 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .menu {
+    padding: 0;
+  }
 }
 
 .menu-text ul {
@@ -103,6 +118,13 @@ img {
   color: #000;
 }
 
+@media (max-width: 500px) {
+  .menu-text a {
+    font-size: 20px;
+    padding: 12px;
+  }
+}
+
 .menu-text a:hover {
   color: #cc2efa;
   text-decoration: underline;
@@ -111,6 +133,12 @@ img {
 .introducao::first-letter {
   color: #e391fa;
   font-size: 60px;
+}
+
+@media (max-width: 500px) {
+  .introducao::first-letter {
+    font-size: 50px;
+  }
 }
 
 .introducao {
@@ -136,6 +164,15 @@ img {
   }
 }
 
+@media (max-width: 500px) {
+  .introducao {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
 .sobre {
   border-top: 7px solid #e391fa;
   border-bottom: 7px solid #e391fa;
@@ -151,7 +188,6 @@ img {
   flex: 1 1 300px;
   margin: 0 40px;
 }
-
 .sobre-info h1 {
   font-size: 40px;
   font-weight: 500;
@@ -324,6 +360,12 @@ img {
   }
 }
 
+@media (max-width: 500px) {
+  .preço-item a {
+    font-size: 40px;
+  }
+}
+
 .preço-item button {
   margin-top: 40px;
   background: #f9f5fa;
@@ -342,6 +384,12 @@ img {
 @media (max-width: 1075px) {
   .preço-item button {
     padding: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .preço-item button {
+    padding: 10px 30px;
   }
 }
 
@@ -488,6 +536,12 @@ img {
   }
 }
 
+@media (max-width: 630px) {
+  .newslatter {
+    padding: 10px;
+  }
+}
+
 @media (max-width: 560px) {
   .newslatter button,
   .newslatter input {
@@ -496,6 +550,17 @@ img {
 
   .newslatter input {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .newslatter button,
+  .newslatter input {
+    font-size: 20px;
+    max-width: 300px;
+  }
+  .newslatter button {
+    margin-bottom: 20px;
   }
 }
 
@@ -513,4 +578,12 @@ img {
   padding: 40px;
   font-size: 30px;
   line-height: 40px;
+}
+
+@media (max-width: 500px) {
+  .footer p {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
