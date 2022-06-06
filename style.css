@@ -272,7 +272,7 @@ img {
 
 .produto-item h2 {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 30px;
   background: #f2f2f2;
   padding: 50px;
   border-top: 10px solid #e391fa;
@@ -326,13 +326,13 @@ img {
 }
 
 .preço-item h2 {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 70px;
 }
 
 .preço-item span {
   font-weight: 400;
-  font-size: 35px;
+  font-size: 25px;
   bottom: 10px;
 }
 .top {
@@ -340,8 +340,8 @@ img {
 }
 .preço-item li {
   font-weight: 300;
-  font-size: 25px;
-  line-height: 37px;
+  font-size: 20px;
+  line-height: 30px;
 }
 .preço-item a {
   color: #e391fa;
@@ -371,7 +371,7 @@ img {
   background: #f9f5fa;
   border: 5px solid #e391fa;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
   padding: 20px;
 }
 
@@ -425,7 +425,7 @@ img {
 
 .qualidade-item h2 {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .qualidade-item h2::before {
@@ -440,7 +440,7 @@ img {
 
 .qualidade-item p {
   font-weight: 300;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .newslatter {
@@ -458,13 +458,13 @@ img {
 
 .newslatter-info h1 {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 30px;
   margin: auto 40px;
   padding: 0px 20px;
 }
 .newslatter-info p {
   font-weight: 300;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 38px;
   margin: auto 40px;
   padding: 0px 20px;
@@ -495,7 +495,7 @@ img {
   flex: 3 1;
   font-style: italic;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   background: #f9f5fa;
   border: 5px solid #eec3fa;
   padding: 10px;
@@ -507,7 +507,7 @@ img {
   background: #eec3fa;
   border: 5px solid #eec3fa;
   color: #cc2efa;
-  font-size: 50px;
+  font-size: 40px;
   padding: 20px 20px;
   margin: 0px;
   cursor: pointer;
@@ -576,8 +576,8 @@ img {
 
 .footer p {
   padding: 40px;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 @media (max-width: 500px) {
